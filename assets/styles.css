@@ -22,9 +22,13 @@ header {
     border-bottom: 5px solid black;
 }
 
-#icon {
+.icon {
     max-height: 150px;
     margin: 20px;
+}
+
+#rit {
+    border-radius: 15px;
 }
 
 h1 {
@@ -88,9 +92,37 @@ footer {
     display: flex;
     flex-direction: row;
     border-top: 5px solid black;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;  
+}
+
+#email-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
 }
 
 #copyright {
     color: #FF1A1A;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-icon {
+    max-height: 75px;
+}
+
+#email-img {
+    border-radius: 15px;
+}
+
+#emails {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.email-link {
+    color: #FF1A1A;
+    font-size: 20px;
+    line-height: 35px;
 }
