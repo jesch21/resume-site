@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     height: 100vh;
 }
+
 /**
 Header Styles
 **/
@@ -25,6 +26,11 @@ header {
 .icon {
     max-height: 150px;
     margin: 20px;
+    transition: max-height .2s;
+}
+
+.icon:hover {
+    max-height: 152px;
 }
 
 #rit {
@@ -81,6 +87,28 @@ Main Styles
 main {
     flex: 1;
     background-color: #c5c5c5;
+    align-items: center;
+    justify-content: center;
+}
+
+#headshot {
+    max-width: 300px;
+    border-radius: 50px;
+    margin: 25px;
+    margin-bottom: 5px;
+}
+
+#caption {
+    max-width: 450px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /**
