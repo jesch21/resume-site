@@ -71,6 +71,14 @@ h1 {
     font-size: 30px;
     font-weight: bold;
     position: relative;
+    text-shadow: 3px 3px 1px #999999;
+    transition: color .2s, padding .2s, text-shadow .5s;
+}
+
+.page:hover {
+    color:#FF1A1A;
+    padding: 6px;
+    text-shadow: 3px 3px 10px black;
 }
 
 #about {
@@ -86,7 +94,7 @@ Main Styles
 **/
 main {
     flex: 1;
-    background-color: #c5c5c5;
+    background-color: rgba(255, 255, 255, 0.815);
     align-items: center;
     justify-content: center;
 }
@@ -138,6 +146,15 @@ footer {
 
 .contact-icon {
     max-height: 75px;
+    transition: max-height .2s;
+}
+
+#linkedin {
+    transition: max-height .2s;
+}
+
+#linkedin:hover {
+    max-height: 80px;
 }
 
 #email-img {
@@ -153,4 +170,9 @@ footer {
     color: #FF1A1A;
     font-size: 20px;
     line-height: 35px;
+    transition: color .2s;
+}
+
+.email-link:hover {
+    color: lightblue;
 }
