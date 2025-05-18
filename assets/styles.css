@@ -29,7 +29,11 @@ header {
     transition: max-height .2s;
 }
 
-.icon:hover {
+#logo {
+    transition: max-height .2s;
+}
+
+#logo:hover {
     max-height: 152px;
 }
 
@@ -120,6 +124,45 @@ main {
     justify-content: center;
 }
 
+h2, h3 {
+    color: #b10000;
+    font-family: 'Lora', serif;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 55px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 1px black;
+    color: #FF1A1A;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+#about-main, #about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-text p {
+    margin-top: 0;
+    font-size: 22px;
+    max-width: 800px;
+    text-align: center;
+}
+
+#bethesda-img {
+    max-width: 900px;
+    margin: 20px;
+    margin-bottom: 0;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
 /**
 Footer Styles
 **/
@@ -186,7 +229,7 @@ Media Queries
         max-height: 130px;
     }
 
-    .icon:hover {
+    .logo:hover {
         max-height: 132px;
     }
 
@@ -222,7 +265,7 @@ Media Queries
         max-height: 110px;
     }
 
-    .icon:hover {
+    .logo:hover {
         max-height: 112px;
     }
 
@@ -257,7 +300,7 @@ Media Queries
         max-height: 90px;
     }
 
-    .icon:hover {
+    .logo:hover {
         max-height: 92px;
     }
 
@@ -301,7 +344,7 @@ Media Queries
         max-height: 90px;
     }
 
-    .icon:hover {
+    .logo:hover {
         max-height: 92px;
     }
 
@@ -346,7 +389,7 @@ Media Queries
         max-height: 70px;
     }
 
-    .icon:hover {
+    .logo:hover {
         max-height: 72px;
     }
 
@@ -398,7 +441,7 @@ Media Queries
         max-height: 70px;
     }
 
-    .icon:hover {
+    .logo:hover {
         max-height: 72px;
     }
 
@@ -447,7 +490,7 @@ Media Queries
         max-height: 50px;
     }
 
-    .icon:hover {
+    .logo:hover {
         max-height: 52px;
     }
 
