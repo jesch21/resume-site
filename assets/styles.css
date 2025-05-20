@@ -134,7 +134,7 @@ h3 {
     font-size: 35px;
 }
 
-#main-section, #main-text {
+#main-section, #main-text, #project-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,6 +163,29 @@ h3 {
 
 #bethesda-img, #caption {
     max-width: 900px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+
+.project-img {
+    width: 500px;
+    height: auto;
+    margin-left: 20vw;
+    border: 5px solid black;
+    border-radius: 3px;
+}
+
+#project-section p {
+    font-size: 22px;
+    max-width: 50vw;
+}
+
+hr {
+    width: 100vw;
 }
 
 /**
