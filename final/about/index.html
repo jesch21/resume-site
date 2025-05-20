@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Lyncourt | About</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+    <link rel="icon" href="../assets/images/paw.jpeg" type="image/jpeg">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../assets/images/paw.jpeg" id="logo" alt="Tiger Paw"></a>
+        <section id="head-section">
+            <h1>About</h1>
+            <nav>
+                <ul id="nav-list">
+                    <li><a href="../about/index.html" class="nav-button">About</a></li>
+                    <li><a href="../food/index.html" class="nav-button">Food</a></li>
+                    <li><a href="../entertainment/index.html" class="nav-button">Entertainment</a></li>
+                    <li><a href="../education/index.html" class="nav-button">Education</a></li>
+                    <li><a href="../history/index.html" class="nav-button">History</a></li>
+                </ul>
+            </nav>
+            <img src="../assets/images/menu.png" id="menu" alt="Nav Menu" onclick="toggleMobileNav()">
+        </section>
+        <ul id="mobile-nav">
+            <li><a href="../about/index.html" class="nav-button">About</a></li>
+            <li><a href="../food/index.html" class="nav-button">Food</a></li>
+            <li><a href="../entertainment/index.html" class="nav-button">Entertainment</a></li>
+            <li><a href="../education/index.html" class="nav-button">Education</a></li>
+            <li><a href="../history/index.html" class="nav-button">History</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23312.751082646093!2d-76.1454225531757!3d43.081521497584966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f26128fc8a8d%3A0xab25f46142021f9e!2sLyncourt%2C%20Salina%2C%20NY!5e0!3m2!1sen!2sus!4v1727876249178!5m2!1sen!2sus" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <section class="body-text">
+            <h2>All About Lyncourt</h2>
+            <p class="body-p">
+                Lyncourt is a small suburban community nestled in the north of Syracuse, right on the border of
+                East Syracuse. It is a town of convenience, with so much of what you would ever need in walking, or short driving,
+                distance from your home. Everything here is centered around Court Street: a 4-lane road that's heavy in traffic, but
+                also attracts a great deal of business along it as it stretches on.<br><br>
+
+                As a resident of Lyncourt, I've found many things in the town that make it a great place to live. Over the years the
+                local food scene has grown exponentially, with a variety of places opening around Court Street. Lyncourt also finds
+                itself in another part of Wegmans territory, meaning there's plenty of access to good shopping. Lyncourt is also home
+                to great educaiton opportunities, from PreK-8 offered through Lyncourt School, and two high school options through Solvay
+                or East Syracuse Minoa. As for entertainment, although I believe the local entertainment is slightly lacking, there are a
+                few good options for placing to hang out in the nearby area, and good movie theaters in driving distance. Finally, this town
+                is full of some interesting history, and even has some interesting tales of changes to the local businesses that I've experienced
+                as I grew up. Overall, there's lots to do and lots to see in Lyncourt. <br><br>
+            </p>
+        </section>
+        <section id="vid-container">
+            <video controls>
+                <source src="../assets/videos/lyncourt.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="image-label">Video of various popular sights in Lyncourt</p>
+        </section>
+        <a id="back" href="../index.html">Back</a>
+    </main>
+
+    <footer>
+        <section id="footer-left">
+            <a class="footer-nav" href="../references/index.html" id="references">References</a>
+            <a class="footer-nav" href="../grading/index.html" id="grading">Grading</a>
+        </section>
+
+        <section id="footer-right">
+            <h3>&copy; Johnathan Eschbacher. All rights reserved</h3>
+            <a class="contact" href="https://www.linkedin.com/in/john-esch"><img class="contact_pic" src="../assets/images/linkedin.png" alt="linkedin"></a>
+            <a class="contact" href="mailto:jme9889@rit.edu"><img class="contact_pic" src="../assets/images/email.jpg" alt="email"></a>
+        </section>
+    </footer>
+    <script src="../assets/scripts.js"></script>
+</body>
+</html>
