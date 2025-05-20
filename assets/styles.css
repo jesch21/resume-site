@@ -169,6 +169,7 @@ h3 {
     display: flex;
     flex-direction: row;
     margin: 25px;
+    align-items: flex-start;
 }
 
 .project-img {
@@ -248,6 +249,17 @@ footer {
 /**
 Media Queries
 **/
+@media only screen and (max-width: 1500px) {
+    /**Main**/
+    #project-section p {
+        max-width: 65vw;
+    }
+
+    .project-img {
+        margin-left: 5vw;
+    }
+  }
+
 @media only screen and (max-width: 1300px) {
     /**Header**/
     .icon {
@@ -266,6 +278,15 @@ Media Queries
         font-size: 25px;
     }
 
+    /**Main**/
+    #project-section p {
+        font-size: 20px;
+    }
+
+    .project-img {
+        width: 400px;
+    }
+
     /**Footer**/
     .contact-icon {
         max-height: 65px;
@@ -281,6 +302,18 @@ Media Queries
         line-height: 32px;
         transition: color .2s;
     }
+  }
+
+@media only screen and (max-width: 1100px) {
+    /**Main**/
+    #project-section p {
+        font-size: 18px;
+    }
+
+    .project-img {
+        width: 350px;
+    }
+
   }
 
   @media only screen and (max-width: 1000px) {
@@ -321,6 +354,15 @@ Media Queries
 
     #caption, #main-text p, #main-text ul {
         font-size: 18px;
+    }
+
+    .project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-text {
+        text-align: center;
     }
 
     /**Footer**/
@@ -369,6 +411,11 @@ Media Queries
 
     h3 {
         font-size: 25px;
+    }
+
+    .project-img {
+        margin: auto;
+        width: 60vw;
     }
 
     #main-text p, #main-text ul {
@@ -438,6 +485,18 @@ Media Queries
 
     #main-text p, #main-text ul {
         max-width: 80vw;
+    }
+
+    .project {
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-text {
+        width: 65vw;
+        margin: 0 auto;
+        text-align: center;
     }
 
     /**Footer**/
