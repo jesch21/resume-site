@@ -150,8 +150,11 @@ h3 {
 
 #about-text p, #about-text ul {
     margin-top: 0;
-    font-size: 22px;
     max-width: 850px;
+}
+
+#caption, #about-text p, #about-text ul {
+    font-size: 22px;
 }
 
 #about-text p {
@@ -159,11 +162,14 @@ h3 {
 }
 
 #bethesda-img {
-    max-width: 900px;
     margin: 20px;
     margin-bottom: 0;
     border-radius: 25px;
     border: 2px solid black;
+}
+
+#bethesda-img, #caption {
+    max-width: 900px;
 }
 
 /**
@@ -281,7 +287,7 @@ Media Queries
     }
 
     /**Main**/
-    #bethesda-img {
+    #bethesda-img, #caption {
         max-width: 750px;
     }
 
@@ -294,8 +300,11 @@ Media Queries
     }
 
     #about-text p, #about-text ul {
-        font-size: 18px;
         max-width: 700px;
+    }
+
+    #caption, #about-text p, #about-text ul {
+        font-size: 18px;
     }
 
     /**Footer**/
@@ -334,7 +343,7 @@ Media Queries
     }
 
     /**Main**/
-    #bethesda-img {
+    #bethesda-img, #caption {
         max-width: 600px;
     }
 
@@ -347,8 +356,11 @@ Media Queries
     }
 
     #about-text p, #about-text ul {
-        font-size: 16px;
         max-width: 650px;
+    }
+
+    #caption, #about-text p, #about-text ul {
+        font-size: 16px;
     }
 
     /**Footer**/
@@ -395,8 +407,8 @@ Media Queries
         font-size: 18px;
     }
 
-        /**Main**/
-    #bethesda-img {
+    /**Main**/
+    #bethesda-img, #caption {
         max-width: 90vw;
     }
 
@@ -409,7 +421,6 @@ Media Queries
     }
 
     #about-text p, #about-text ul {
-        font-size: 16px;
         max-width: 80vw;
     }
 
