@@ -103,6 +103,10 @@ main {
     justify-content: center;
 }
 
+#main-resume {
+    background-color: rgb(226, 226, 226);
+}
+
 #headshot {
     max-width: 300px;
     border-radius: 50px;
@@ -134,7 +138,7 @@ h3 {
     font-size: 35px;
 }
 
-#main-section, #main-text, #project-section {
+#main-section, #main-text, #project-section, #resume-main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -185,8 +189,71 @@ h3 {
     max-width: 50vw;
 }
 
+#resume-main hr {
+    width: 100%;
+}
+
 hr {
     width: 100vw;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: #999999;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 7px;
+    margin: 25px;
+    transition: padding .2s, color .2s;
+    cursor: pointer;
+}
+
+button:hover {
+    padding: 8px;
+    color: #FF1A1A;
+}
+
+#resume-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#resume-main {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: rgb(219, 219, 219);
+}
+
+.left {
+    flex: 1;
+    max-width: 800px;
+    text-align: left;
+    margin: 0;
+}
+
+#left-list {
+    text-align: left;
+}
+
+.right {
+    flex: 0 0 auto;
+    text-align: right;
+    margin: 0;
+}
+
+.resume-section {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 100%;
 }
 
 /**
@@ -365,6 +432,10 @@ Media Queries
         text-align: center;
     }
 
+    #resume-main {
+        width: 800px;
+    }
+
     /**Footer**/
     .contact-icon {
         max-height: 60px;
@@ -426,6 +497,10 @@ Media Queries
         font-size: 16px;
     }
 
+    #resume-main {
+        width: 700px;
+    }
+
     /**Footer**/
     .contact-icon {
         max-height: 50px;
@@ -445,6 +520,22 @@ Media Queries
     #copyright {
         max-width: 225px;
         text-align: center;
+    }
+  }
+
+@media only screen and (max-width: 750px) {
+    #resume-main {
+        width: 90vw;
+        padding: 0;
+        padding-bottom: 25px;
+        border: none;
+    }
+    .right {
+        width: 150px;
+    }
+
+    #main-resume {
+        background-color: rgb(219, 219, 219);
     }
   }
 
